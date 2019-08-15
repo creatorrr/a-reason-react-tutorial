@@ -1,7 +1,10 @@
 {
-  "name" : "reason-to-do",
-  "reason" : {"react-jsx" : 2},
+  "name": "reason-to-do",
+  "reason": { "react-jsx": 3 },
   "refmt": 3,
   "bs-dependencies": ["reason-react"],
+  "bsc-flags": ["-bs-super-errors"],
+  "namespace": true,
+  "ppx-flags": [],
   "sources": "src"
 }
